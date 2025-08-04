@@ -1,4 +1,6 @@
 // app/layout.jsx
+import '../styles/globals.css';
+
 export const metadata = {
   title: 'CryptoInfoDaily',
   description: 'CMC Clone for Degens',
