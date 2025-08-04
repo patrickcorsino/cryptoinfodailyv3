@@ -1,1 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-darkBg text-white font-sans;
+}
+
+.glow-green {
+  box-shadow: 0 0 12px #24f57a, 0 0 2px #24f57a;
+}
+
+.glow-red {
+  box-shadow: 0 0 12px #ff3366, 0 0 2px #ff3366;
+}
+
+.glow {
+  transition: box-shadow 0.5s, color 0.5s, background 0.5s;
+}
+
+.card {
+  @apply bg-card rounded-2xl shadow-card p-4 transition hover:shadow-xl;
+}
+
+.marketstat-label {
+  color: #fff;
+  font-size: 0.96rem;
+  opacity: 0.88;
+}
+
+.marketstat-data {
+  color: #7788bb;
+  font-size: 1.03rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
 
